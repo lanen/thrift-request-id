@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -rf ./src/main/gen-java/io
+thrift --gen java -o ./src/main/ ./src/main/resources/calc.thrift
